@@ -3,9 +3,9 @@ import Header from "./header"
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div className="dark:bg-slate-800 min-h-screen mx-auto">
+    <div className="dark:bg-slate-800 min-h-screen">
       <Header />
-      <main className="my-3 py-3 px-6 dark:bg-slate-800 dark:text-white">
+      <main className="my-3 py-3 px-6 dark:bg-slate-800 dark:text-white text-center">
         <h1 className="my-2 py-3 text-3xl font-semibold dark:text-slate-300">
           {pageTitle}
         </h1>
