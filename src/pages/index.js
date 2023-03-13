@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 const IndexPage = () => {
   return (
     <Layout pageTitle={"Home Page"}>
-      <p>
+      <p className="text-md font-semibold dark:text-slate-200">
         Thank you for joining me here. The reason for creating blog site is to
         tell you that there will be a website coming soon that is mainly build
         for teachers.

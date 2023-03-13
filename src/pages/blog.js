@@ -4,7 +4,9 @@ import Layout from "../components/layout"
 const BlogPage = () => {
   return (
     <Layout pageTitle={"My Blog"}>
-      <p>All posts are coming soon.</p>
+      <p className="text-md font-semibold dark:text-slate-200">
+        All posts are coming soon.
+      </p>
     </Layout>
   )
 }
